@@ -32,7 +32,7 @@ public class SpringBootSwaggerApplication {
     public ServletRegistrationBean swaggerServlet() {
         ServletRegistrationBean swagger = new ServletRegistrationBean(new DefaultCamelSwaggerServlet(), "/api-doc/*");
         Map<String, String> params = new HashMap<>();
-        params.put("base.path", "/api");
+        params.put("base.path", "api");
         params.put("api.title", "my api title");
         params.put("api.description", "my api description");
         params.put("api.termsOfServiceUrl", "termsOfServiceUrl");
