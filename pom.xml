@@ -63,8 +63,11 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+				<groupId>io.takari.maven.plugins</groupId>
+				<artifactId>proto-maven-plugin</artifactId>
+				<version>1.2.1</version>
+			</plugin>
 		</plugins>
 	</build>
-
-
 </project>
